@@ -43,7 +43,7 @@ CONTROLLER = "{}-controller".format(DOMAIN)
 
 _LOGGER = logging.getLogger(__name__)
 
-REQUEST_TIMEOUT = 5  # seconds
+REQUEST_TIMEOUT = 30  # seconds
 RETRY_INTERVAL = 60  # seconds
 
 PAIRING_FILE = "pairing.json"
